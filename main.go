@@ -12,4 +12,6 @@ func main(){
 	// task2.FreqCount()
 	fmt.Println(task2.Palindrome("hello"))
 	fmt.Println(task2.Palindrome("omo"))
+
+	fmt.Println(task2.FreqCount("hello hello, Hello test"))
 }
