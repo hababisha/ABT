@@ -13,5 +13,7 @@ func main() {
 	library.Members[1] = models.Member{ID: 1, Name: "Abebe"}
 	library.Members[2] = models.Member{ID: 2, Name: "Kebede"}
 	
+	library.AddBook(models.Book{ID: 101, Title: "The Go Programming Language", Author: "Donovan & Kernighan", Status: "available"})
+	library.AddBook(models.Book{ID: 102, Title: "Learning Go", Author: "Jon Bodner", Status: "available"})
 	controllers.Start(library)
 }
