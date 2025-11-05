@@ -1,4 +1,4 @@
-module github.com/hababisha/ABT
+module example/web-service-gin
 
 go 1.23.3
 

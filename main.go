@@ -1,9 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"github.com/hababisha/ABT/task1"
 	"github.com/hababisha/ABT/task2"
-	"fmt"
 )
 
 func main(){
@@ -14,4 +14,5 @@ func main(){
 	fmt.Println(task2.Palindrome("omo"))
 
 	fmt.Println(task2.FreqCount("hello hello, Hello test"))
+	
 }
