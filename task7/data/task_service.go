@@ -3,7 +3,6 @@ package data
 import (
 	"sync"
 	"github.com/hababisha/task_manager/models"
-	"strconv"
 )
 
 type TaskService struct {
